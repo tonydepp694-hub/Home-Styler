@@ -15,7 +15,7 @@ function App() {
     <Layout>
       <Routes>
         {/* Redirects /Home_Styler to the root homepage */}
-        <Route path="/Home_Styler" element={<Navigate to="/" replace />} />
+        <Route path="/Home-Styler" element={<Navigate to="/" replace />} />
         
         <Route path="/" element={<Home />} />
         <Route path="/design-styles" element={<DesignStyles />} />
